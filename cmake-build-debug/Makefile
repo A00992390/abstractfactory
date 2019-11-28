@@ -123,32 +123,140 @@ abstractfactory/fast:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/build
 .PHONY : abstractfactory/fast
 
-main.o: main.cpp.o
+driver.o: driver.cpp.o
 
-.PHONY : main.o
+.PHONY : driver.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/main.cpp.o
-.PHONY : main.cpp.o
+driver.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/driver.cpp.o
+.PHONY : driver.cpp.o
 
-main.i: main.cpp.i
+driver.i: driver.cpp.i
 
-.PHONY : main.i
+.PHONY : driver.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/main.cpp.i
-.PHONY : main.cpp.i
+driver.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/driver.cpp.i
+.PHONY : driver.cpp.i
 
-main.s: main.cpp.s
+driver.s: driver.cpp.s
 
-.PHONY : main.s
+.PHONY : driver.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/main.cpp.s
-.PHONY : main.cpp.s
+driver.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/driver.cpp.s
+.PHONY : driver.cpp.s
+
+enhancedfaeryland.o: enhancedfaeryland.cpp.o
+
+.PHONY : enhancedfaeryland.o
+
+# target to build an object file
+enhancedfaeryland.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enhancedfaeryland.cpp.o
+.PHONY : enhancedfaeryland.cpp.o
+
+enhancedfaeryland.i: enhancedfaeryland.cpp.i
+
+.PHONY : enhancedfaeryland.i
+
+# target to preprocess a source file
+enhancedfaeryland.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enhancedfaeryland.cpp.i
+.PHONY : enhancedfaeryland.cpp.i
+
+enhancedfaeryland.s: enhancedfaeryland.cpp.s
+
+.PHONY : enhancedfaeryland.s
+
+# target to generate assembly for a file
+enhancedfaeryland.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enhancedfaeryland.cpp.s
+.PHONY : enhancedfaeryland.cpp.s
+
+futuristicdystopian.o: futuristicdystopian.cpp.o
+
+.PHONY : futuristicdystopian.o
+
+# target to build an object file
+futuristicdystopian.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/futuristicdystopian.cpp.o
+.PHONY : futuristicdystopian.cpp.o
+
+futuristicdystopian.i: futuristicdystopian.cpp.i
+
+.PHONY : futuristicdystopian.i
+
+# target to preprocess a source file
+futuristicdystopian.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/futuristicdystopian.cpp.i
+.PHONY : futuristicdystopian.cpp.i
+
+futuristicdystopian.s: futuristicdystopian.cpp.s
+
+.PHONY : futuristicdystopian.s
+
+# target to generate assembly for a file
+futuristicdystopian.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/futuristicdystopian.cpp.s
+.PHONY : futuristicdystopian.cpp.s
+
+maze_factory.o: maze_factory.cpp.o
+
+.PHONY : maze_factory.o
+
+# target to build an object file
+maze_factory.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/maze_factory.cpp.o
+.PHONY : maze_factory.cpp.o
+
+maze_factory.i: maze_factory.cpp.i
+
+.PHONY : maze_factory.i
+
+# target to preprocess a source file
+maze_factory.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/maze_factory.cpp.i
+.PHONY : maze_factory.cpp.i
+
+maze_factory.s: maze_factory.cpp.s
+
+.PHONY : maze_factory.s
+
+# target to generate assembly for a file
+maze_factory.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/maze_factory.cpp.s
+.PHONY : maze_factory.cpp.s
+
+maze_game.o: maze_game.cpp.o
+
+.PHONY : maze_game.o
+
+# target to build an object file
+maze_game.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/maze_game.cpp.o
+.PHONY : maze_game.cpp.o
+
+maze_game.i: maze_game.cpp.i
+
+.PHONY : maze_game.i
+
+# target to preprocess a source file
+maze_game.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/maze_game.cpp.i
+.PHONY : maze_game.cpp.i
+
+maze_game.s: maze_game.cpp.s
+
+.PHONY : maze_game.s
+
+# target to generate assembly for a file
+maze_game.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/maze_game.cpp.s
+.PHONY : maze_game.cpp.s
 
 # Help Target
 help:
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... abstractfactory"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... driver.o"
+	@echo "... driver.i"
+	@echo "... driver.s"
+	@echo "... enhancedfaeryland.o"
+	@echo "... enhancedfaeryland.i"
+	@echo "... enhancedfaeryland.s"
+	@echo "... futuristicdystopian.o"
+	@echo "... futuristicdystopian.i"
+	@echo "... futuristicdystopian.s"
+	@echo "... maze_factory.o"
+	@echo "... maze_factory.i"
+	@echo "... maze_factory.s"
+	@echo "... maze_game.o"
+	@echo "... maze_game.i"
+	@echo "... maze_game.s"
 .PHONY : help
 
 

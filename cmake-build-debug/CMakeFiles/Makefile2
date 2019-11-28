@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/abstractfactory.dir/all:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/depend
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Lab/abstractfactory/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target abstractfactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Lab/abstractfactory/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target abstractfactory"
 .PHONY : CMakeFiles/abstractfactory.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/abstractfactory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Lab/abstractfactory/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Lab/abstractfactory/cmake-build-debug/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/abstractfactory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Lab/abstractfactory/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/abstractfactory.dir/rule

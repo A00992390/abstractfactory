@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/abstractfactory.dir/main.cpp.o"
+  "CMakeFiles/abstractfactory.dir/driver.cpp.o"
+  "CMakeFiles/abstractfactory.dir/enhancedfaeryland.cpp.o"
+  "CMakeFiles/abstractfactory.dir/futuristicdystopian.cpp.o"
+  "CMakeFiles/abstractfactory.dir/maze_factory.cpp.o"
+  "CMakeFiles/abstractfactory.dir/maze_game.cpp.o"
   "abstractfactory.exe"
   "abstractfactory.pdb"
   "libabstractfactory.dll.a"
