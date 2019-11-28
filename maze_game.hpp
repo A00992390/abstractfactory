@@ -8,7 +8,7 @@
 
 class maze_game {
 public:
-    maze create_maze(maze_factory &mf) {
+    maze* create_maze(maze_factory &mf) {
         // maze
         maze *maze = mf.make_maze();
         // room 1
